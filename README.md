@@ -9,7 +9,7 @@ pip install torch torchvision sklearn pytorch-pretrained-bert numpy tqdm matplot
 ## Pre-requisite
 
 Download glove.840B.300d.zip from http://nlp.stanford.edu/data/glove.840B.300d.zip
-Place it in dataset folder
+Unzip the file and place it in dataset folder
 
 ## How to run baselines
 
@@ -17,5 +17,5 @@ Execute job-{baseline_name_lowercase}
 
 Run following command to execute the 
 
-chmod +x job-bow.sh
-./job-bow.sh 
+1. > chmod +x job-bow.sh
+2. > ./job-bow.sh 

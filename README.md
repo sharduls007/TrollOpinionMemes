@@ -17,5 +17,5 @@ Execute job-{baseline_name_lowercase}
 
 Run following command to execute the 
 
->> chmod +x job-bow.sh
->> ./job-bow.sh 
+chmod +x job-bow.sh
+./job-bow.sh 

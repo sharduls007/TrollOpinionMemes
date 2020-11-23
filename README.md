@@ -15,7 +15,7 @@ Unzip the file and place it in dataset folder
 
 Execute job-{baseline_name_lowercase}
 
-Run following command to execute the 
+Run following command to execute bow baseline 
 
 1. > chmod +x job-bow.sh
 2. > ./job-bow.sh 

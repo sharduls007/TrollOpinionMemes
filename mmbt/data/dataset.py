@@ -81,7 +81,7 @@ class JsonlDataset(Dataset):
         if self.args.model in ["img", "concatbow", "concatbert", "mmbt"]:
             if self.data[index]["img"]:
                 image = Image.open(
-                    os.path.join('/home/shasur/dataset/memotion_dataset/mmf_memotion/', self.data[index]["img"])
+                    os.path.join('../../dataset/', self.data[index]["img"])
                 ).convert("RGB")
             else:
                 image = Image.fromarray(128 * np.ones((256, 256, 3), dtype=np.uint8))
